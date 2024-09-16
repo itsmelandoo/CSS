@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    background-image: url("bg.png");
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.base{
+    display: flex;
+    width: 420px; 
+    background-color: #424549 ;
+    border-radius: 5px;
+    padding: 30px 40px; 
+}
+.base h2{
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.base h5{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+.base .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    color: #fff;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #8EACCD;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #ffff;
+    padding: 20px 45px 20px 10px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box i{
+    position: absolute;
+    right: 15px;
+    top: 52%; 
+    transform: translateY(40%);
+    font-size: 20px;
+}
+.base .remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -5px 0 5px;
+    color: #fff;
+}
+.remember input label{
+    accent-color: #fff;
+    margin-right: 10px;
+    
+}
+.remember a{
+    color: #424549;
+    text-decoration: none;
+    color: #fff;
+}
+.remember a:hover{
+    text-decoration: underline;
+    color:#7289da
+}
+.base .login{
+    display:block;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8EACCD;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8EACCD;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+.base .login:hover{
+  transform: scale(1.1);
+}
+.base .register{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #fff;
+   
+}
+.register p a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    
+}
+.register p a:hover{
+    text-decoration: underline;
+    color: #7289da;
+}
+.base button{
+    width: 100%;
+    border: 2px solid #b3b3b3;
+    height: 45px;
+    background: transparent;
+    border-radius: 40px;
+    border-color: #b3b3b3;
+    box-shadow: 0 0 0 ;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.base button:hover{
+    color: white;
+}
+.extensions button{
+    text-align:start 200px;
+    position: flex;
+    margin-bottom: -200px;
+}
+.extensions i{
+    position: block;
+    margin-left: 40px;
+    transform: translateY(-80%);
+    font-size: 30px;
+}
+.extensions a{
+    text-decoration: none;
+    color: #fff;
+}
+.extensions a:hover{
+    color: #7289da;
+    text-decoration: underline;
+}

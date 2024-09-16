@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    background-image: url(bg.png);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.base{
+    display: flex;
+    width: 450px; 
+    height:720px;
+    background-color: #424549 ;
+    border-radius: 5px;
+    padding: 30px 40px; 
+}
+.base h3{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+.base p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color:#fff;
+}
+.base .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    color: #fff;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #8EACCD;
+    border-radius: 10px;
+    font-size: 16px; 
+    color: #ffff;
+    padding: 20px 45px 20px 10px;
+}
+.terms{
+    display: flex;
+    justify-content: left;
+    border:0px;
+    width: unset;
+    margin: 0 0.5em 0 -90px;
+}
+.terms label{
+    text-align: left;
+    
+}
+.terms a{
+    text-decoration: none;
+    color:#fff
+}
+.terms a:hover{
+    text-decoration: underline;
+    color:#8EACCD ;
+}
+
+.base .signin{
+    display:block;
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #8EACCD;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8EACCD;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+.base .signin:hover{
+  transform: scale(1.1);
+}
+.Login a{
+    text-decoration: none;
+    color: #fff;
+}
+.Login a:hover{
+    text-decoration: underline;
+    color: #8EACCD;
+}
+.base button{
+    width: 100%;
+    border: 2px solid #b3b3b3;
+    height: 45px;
+    background: transparent;
+    border-radius: 40px;
+    border-color: #b3b3b3;
+    box-shadow: 0 0 0 ;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.extensions button{
+    display: block;
+    text-align:center;
+    position: flex;
+    margin-bottom: -30px;
+
+}
+.extensions i{
+    position: block;
+    margin-left: 60px;
+    transform: translateY(-20%);
+    font-size: 30px;
+}
+.extensions a{
+    text-decoration: none;
+    color: #fff;
+}
+.extensions a:hover{
+    color: #7289da;
+    text-decoration: underline;
+}
